@@ -23,9 +23,10 @@ A simple, zero‑dependency Go CLI (and package) for fetching the current time i
 ## Repository Layout
 
 ```bash
-timenow/                   ← Go library package
-  timenow.go               ← core logic (ParseTZ, GetTimeNow)
-  timenow_test.go          ← unit tests (table‑driven)
+pkg/
+  timenow/                 ← Go library package
+    timenow.go             ← core logic (ParseTZ, GetTimeNow)
+    timenow_test.go        ← unit tests (table-driven)
 
 cmd/
   timenow/                 ← CLI entrypoint

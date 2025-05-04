@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Plasmatech-Studios/timenow/timenow/pkg/timenow"
+	"github.com/Plasmatech-Studios/timenow/pkg/timenow"
 	"github.com/atotto/clipboard"
 )
 
