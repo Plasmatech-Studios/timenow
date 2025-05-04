@@ -1,6 +1,6 @@
 # timenow
 
-A simple, zero‑dependency Go CLI (and package) for fetching the current time in various formats and timezones. By default, `timenow` returns the Unix timestamp (seconds since epoch) and copies it to the clipboard. It can also be imported as a library to retrieve formatted time strings programmatically.
+A simple Go CLI (and package) for fetching the current time in various formats and timezones. By default, `timenow` returns the Unix timestamp (seconds since epoch) and copies it to the clipboard. It can also be imported as a library to retrieve formatted time strings programmatically.
 
 ---
 
